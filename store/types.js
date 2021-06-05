@@ -1,0 +1,1 @@
+export const SET_BATTERY_LEVEL = "SET_BATTERY_LEVEL";

@@ -1,12 +1,19 @@
 {
-  "name": "battery-warnings",
-  "displayName": "battery-warnings",
+  "name": "Battery Charge Warning",
+  "displayName": "Battery Charge Warning",
   "expo": {
-    "name": "battery-warnings",
-    "slug": "battery-warnings",
+    "name": "Battery Charge Warning",
+    "slug": "batteryChargeWarning",
     "version": "1.0.0",
+    "platforms": ["android"],
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "primaryColor": "#e85c40",
+    "icon": "./assets/img/icon.png",
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1
+    }
   }
 }
